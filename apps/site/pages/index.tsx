@@ -1,6 +1,9 @@
 import styles from './index.module.scss';
+import {ArticleComponents} from '@nx-demo/article-components';
+// import { types } from '@nx-demo/types';
 
 export function Index() {
+  // console.log(types());
   /*
    * Replace the elements below with your own.
    *
@@ -8,6 +11,7 @@ export function Index() {
    */
   return (
     <div className={styles.page}>
+      <ArticleComponents />
       <div className="wrapper">
         <div className="container">
           <div id="welcome">

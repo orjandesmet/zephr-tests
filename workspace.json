@@ -1,7 +1,9 @@
 {
   "version": 2,
   "projects": {
+    "article-components": "libs/article-components",
     "site": "apps/site",
-    "site-e2e": "apps/site-e2e"
+    "site-e2e": "apps/site-e2e",
+    "types": "libs/types"
   }
 }

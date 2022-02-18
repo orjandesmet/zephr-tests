@@ -13,8 +13,16 @@
             "allow": [],
             "depConstraints": [
               {
-                "sourceTag": "*",
-                "onlyDependOnLibsWithTags": ["*"]
+                "sourceTag": "app",
+                "onlyDependOnLibsWithTags": ["ui", "domain"]
+              },
+              {
+                "sourceTag": "ui",
+                "onlyDependOnLibsWithTags": ["ui", "domain"]
+              },
+              {
+                "sourceTag": "domain",
+                "onlyDependOnLibsWithTags": ["domain"]
               }
             ]
           }
